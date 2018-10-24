@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+img {
+  height: 200px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #000;
+}
+.gallery {
+  width: 1030px;
+  height: 100%;
+  margin: 0 auto;
+  margin-top: 10%;
+}
+
+.image {
+  display: inline-block;
+}
+.image h2 {
+  text-align: center;
+  text-transform: capitalize;
+}
+.image p {
+  text-align: center;
+}
+
+.full-size h2 {
+  text-align: center;
+  text-transform: capitalize;
+}
+.full-size img {
+
+  width: 40%;
+  height: 40%;
+  display: block;
+  margin: 0 auto;
+}
+.full-size p {
+  text-align: center;
+}
